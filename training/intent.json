@@ -1,0 +1,146 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hello", "Good morning", "Hey", "Is anyone there?"],
+          "responses": [
+              "Hello! Welcome to our flower shop. How can I assist you today?",
+              "Hi there! What brings you to our flower shop?",
+              "Greetings! How can I help brighten your day?"
+          ],
+          "suggestions": [
+              "Would you like to see some popular bouquets?",
+              "We have a sale on roses today."
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "Goodbye", "See you", "I'm leaving", "Catch you later"],
+          "responses": [
+              "Goodbye! Thanks for visiting our shop!",
+              "Have a great day!",
+              "See you soon! Feel free to come back anytime."
+          ],
+          "suggestions": [
+              "Don't forget to check our website for special discounts."
+          ]
+      },
+      {
+          "tag": "flowers",
+          "patterns": ["What flowers do you have?", "Show me some flowers", "I want to buy flowers"],
+          "responses": [
+              "We have roses, tulips, lilies, and many more. What kind of flowers are you looking for?",
+              "Our selection includes sunflowers, daisies, and orchids. Any specific preferences?",
+              "You can choose from a variety of flowers like hydrangeas and peonies!"
+          ],
+          "suggestions": [
+              "Roses are perfect for anniversaries!",
+              "Tulips are great for spring celebrations."
+          ]
+      },
+      {
+          "tag": "prices",
+          "patterns": ["What are the prices of your flowers?", "How much for a bouquet?", "Flower costs"],
+          "responses": [
+              "Our prices range from $10 to $100 depending on the bouquet size and flower type.",
+              "Bouquets start at $15, and we offer a range of prices based on your preferences.",
+              "You can get a basic bouquet for around $10. What size do you have in mind?"
+          ],
+          "suggestions": [
+              "Roses start at $15 per bouquet.",
+              "Tulips start at $20 per bouquet."
+          ]
+      },
+      {
+          "tag": "order",
+          "patterns": ["I want to place an order", "How do I order?", "I'd like to buy flowers"],
+          "responses": [
+              "Sure! What flowers would you like to order?",
+              "Great choice! Can I have your delivery address?",
+              "Excellent! What size bouquet would you like to order?"
+          ],
+          "suggestions": [
+              "We can offer same-day delivery for local orders.",
+              "Do you want to add a card with your bouquet?"
+          ]
+      },
+      {
+          "tag": "delivery",
+          "patterns": ["What is your delivery policy?", "Do you deliver flowers?", "How does delivery work?"],
+          "responses": [
+              "We offer same-day delivery for local orders. Where would you like it sent?",
+              "Delivery is available within a 20-mile radius. Do you have an address in mind?",
+              "We can deliver flowers anywhere in the city. When do you need it?"
+          ],
+          "suggestions": [
+              "Don't forget to provide the delivery date!",
+              "Would you like to schedule a recurring delivery?"
+          ]
+      },
+      {
+          "tag": "flower_care",
+          "patterns": ["How do I care for my flowers?", "Tips for flower care", "How to keep flowers fresh?"],
+          "responses": [
+              "To keep your flowers fresh, trim the stems and change the water every few days.",
+              "Make sure to keep your flowers in a cool area away from direct sunlight.",
+              "A little sugar in the water can help your flowers last longer!"
+          ],
+          "suggestions": [
+              "Would you like to know about flower food?",
+              "Do you have specific flowers in mind for care tips?"
+          ]
+      },
+      {
+          "tag": "special_occasions",
+          "patterns": ["What flowers for a wedding?", "Best flowers for anniversaries", "Flowers for birthdays"],
+          "responses": [
+              "For weddings, we recommend elegant white roses or vibrant peonies.",
+              "Anniversaries are perfect for classic red roses. What do you think?",
+              "For birthdays, cheerful sunflowers and colorful mixed bouquets work well!"
+          ],
+          "suggestions": [
+              "Do you need help choosing for a specific event?",
+              "Looking for seasonal recommendations?"
+          ]
+      },
+      {
+          "tag": "recommendations",
+          "patterns": ["What do you recommend?", "Best sellers?", "Popular flowers"],
+          "responses": [
+              "I recommend our mixed bouquet for a touch of color! Would you like to see it?",
+              "If you like vibrant colors, our tropical flowers are a hit!",
+              "For a classic choice, you can't go wrong with our dozen roses."
+          ],
+          "suggestions": [
+              "Are you interested in seasonal flowers?",
+              "We have limited editions available now!"
+          ]
+      },
+      {
+          "tag": "feedback",
+          "patterns": ["I want to give feedback", "How can I leave a review?", "Your service was great!"],
+          "responses": [
+              "We'd love to hear your feedback! How was your experience?",
+              "Your opinion matters! Please let us know how we can improve.",
+              "Did everything meet your expectations? We appreciate your input!"
+          ],
+          "suggestions": [
+              "Would you like to leave a rating?",
+              "Thank you for your kind words!"
+          ]
+      },
+      {
+          "tag": "help",
+          "patterns": ["I need help", "Can you assist me?", "I'm confused"],
+          "responses": [
+              "How can I assist you further?",
+              "Is there anything else you need help with?",
+              "Feel free to ask if you have more questions!"
+          ],
+          "suggestions": [
+              "Would you like to see our FAQs?",
+              "Do you have specific flowers in mind?"
+          ]
+      }
+  ]
+}
